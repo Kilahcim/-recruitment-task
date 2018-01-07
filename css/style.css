@@ -1,0 +1,51 @@
+nav {
+  z-index: 1;
+}
+.slider {
+  z-index: -9;
+  position: relative;
+  top: -56px;
+  left: 0;
+}
+.img {
+  height: 100vh;
+  width: 100vw;
+}
+.img img {
+  height: 100%;
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+.imgCenter {
+  display: block;
+  margin: auto;
+  height: 300px;
+  width: 350px;
+}
+
+.btnCenter {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 54%;
+}
+
+[type="file"] {
+  background: none;
+  border-radius: 4px;
+}
+img[alt="skateboard"] {
+  max-height: 200px;
+}
+.btcReg {
+  max-width: 25%;
+}
+footer {
+  color: white;
+}
+footer h3 {
+  margin-top: 1rem;
+  text-align: center;
+}
